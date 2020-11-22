@@ -1,0 +1,23 @@
+colors / цвета:
+scarlet
+lightgray
+gray
+stat
+scarlet
+accent
+royal
+sky
+
+emotes:
+\uf8c4
+\ue85e
+\uf870
+\ue814
+\ue817
+\ue875
+\ue88c
+\ue844
+\ue800
+\uf896
+\uf861
+\uf838
