@@ -7,6 +7,7 @@ scarlet
 accent
 royal
 sky
+white
 
 emotes:
 \uf8c4
@@ -21,3 +22,4 @@ emotes:
 \uf896
 \uf861
 \uf838
+
