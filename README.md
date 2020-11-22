@@ -1,2 +1,2 @@
-# L1337n
-1eet 5p3ek!
+# About L1337n
+Russian & english leet-speak localisation.
