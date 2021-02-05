@@ -1,25 +1,25 @@
-colors / цвета:
-scarlet
-lightgray
-gray
-stat
-scarlet
-accent
-royal
-sky
-white
+scarlet   = 5C4RL37
+lightgray = L19H79R4Y
+gray      = 9R4Y
+stat      = 5747
+scarlet   = 5C4RL37
+accent    = 4CC3N7
+royal     = R0Y4L
+sky       = 5KY
+white     = WH173
 
-emotes:
-\uf8c4
-\ue85e
-\uf870
-\ue814
-\ue817
-\ue875
-\ue88c
-\ue844
-\ue800
-\uf896
-\uf861
-\uf838
-
+
+
+\uf8c4 = \UPH8C4
+\ue85e = \U3853
+\uf870 = \UPH870
+\ue814 = \U3814
+\ue817 = \U3817
+\ue875 = \U3875
+\ue88c = \U388C
+\ue844 = \U3844
+\ue800 = \U3800
+\uf896 = \UPH896
+\uf861 = \UPH861
+\uf838 = \UPH838
+\ue80a = \U3804
