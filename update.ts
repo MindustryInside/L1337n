@@ -28,7 +28,7 @@ interface Properties{
 }
 
 function readProperties(path: string): Properties{
-    const obj: object = {};
+    const obj: Properties = {};
     fs.readFileSync(path, 'utf8').split('\n')
         .filter(value => !!value)
         .forEach(value => {
@@ -42,7 +42,7 @@ function escape(text: string): string{
     return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function replacer(arr: string[], obj: Properties): void{
+function replace(arr: string[], obj: Properties): void{
     arr.forEach((value, index) => {
         Object.keys(obj).forEach(k => {
             const spl = value.split(' = ');
@@ -66,7 +66,7 @@ sources.forEach(value => {
             const lines: string[] = buffer.split('\n');
 
             value.dictionaries.map(value1 => readProperties(value1))
-                .forEach(dict => replacer(lines, dict));
+                .forEach(dict => replace(lines, dict));
 
             writeFile(value.filename(), lines);
         });
