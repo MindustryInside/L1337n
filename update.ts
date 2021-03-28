@@ -25,6 +25,7 @@ const sources: BundleSource[] = [
 
 interface Properties{
 
+    [key: string]: string
 }
 
 function readProperties(path: string): Properties{

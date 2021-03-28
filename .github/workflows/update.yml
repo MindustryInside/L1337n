@@ -1,0 +1,24 @@
+name: Auto update
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run update script
+        run: yarn build
+      - name: Push changes
+        run: |
+          git config --global user.email "cli@github.com"
+          git config --global user.name "Github Actions"
+          git add bundles/*
+          git commit --allow-empty -m "[auto-update]"
+          git push https://MindustryInside:${{ secrets.API_TOKEN_GITHUB }}@github.com/MindustryInside/L1337n
