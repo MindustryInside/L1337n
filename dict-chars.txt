@@ -1,25 +1,32 @@
-scarlet   = 5C4RL37
-lightgray = L19H79R4Y
-gray      = 9R4Y
-stat      = 5747
-scarlet   = 5C4RL37
-accent    = 4CC3N7
-royal     = R0Y4L
-sky       = 5KY
-white     = WH173
+5C4RL37   = scarlet
+L19H79R4Y = lightgray
+9R4Y      = gray
+5747      = stat
+5C4RL37   = scarlet
+4CC3N7    = accent
+R0Y4L     = royal
+5KY       = sky
+WH173     = white
 
 
 
-\uf8c4 = \UPH8C4
-\ue85e = \U3853
-\uf870 = \UPH870
-\ue814 = \U3814
-\ue817 = \U3817
-\ue875 = \U3875
-\ue88c = \U388C
-\ue844 = \U3844
-\ue800 = \U3800
-\uf896 = \UPH896
-\uf861 = \UPH861
-\uf838 = \UPH838
-\ue80a = \U3804
+\UPH8C4  = \uf8c4
+\U3853   = \ue85e
+\UPH870  = \uf870
+\U3814   = \ue814
+\U3817   = \ue817
+\U3875   = \ue875
+\U388C   = \ue88c
+\U3844   = \ue844
+\U3800   = \ue800
+\UPH896  = \uf896
+\UPH861  = \uf861
+\UPH838  = \uf838
+\U3804   = \ue80a
+\UPH879  = \uf879
+\U3827   = \ue827
+\UPH87PH = \uf87f
+\UPH835  = \uf835
+
+
+\N = \n
