@@ -1,9 +1,9 @@
 {
   "name": "l1337n",
   "displayName": "L1337n",
-  "description": "Leet speak localisator",
+  "description": "Leet speak localisator.",
   "author": "Mindustry Inside",
   "hidden": true,
-  "version": "0.1-alpha",
+  "version": "0.2",
   "minGameVersion": 115
 }
