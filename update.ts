@@ -18,9 +18,11 @@ class BundleSource{
 
 const sources: BundleSource[] = [
     new BundleSource('https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/bundles/bundle_ru.properties',
-        ['dict-ru.txt']),
+        ['dictionaries/dict-ru.txt']),
+    new BundleSource('https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/bundles/bundle_uk_UA.properties',
+        ['dictionaries/dict-ua.txt']),
     new BundleSource('https://raw.githubusercontent.com/Anuken/Mindustry/master/core/assets/bundles/bundle.properties',
-        ['dict-en.txt', 'dict-chars.txt'])
+        ['dictionaries/dict-en.txt', 'dictionaries/dict-chars.txt'])
 ];
 
 interface Properties{
