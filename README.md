@@ -2,4 +2,4 @@
 
 ## About
 
-Mindustry mod adding russian & english leet-speak localisation.
+Mindustry mod adding russian & english leet-speak localization.
